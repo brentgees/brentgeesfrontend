@@ -1,1 +1,9 @@
-<p>This is portfolio</p>
+<h1>Portfolio</h1>
+<div ng-controller="portfolio">
+    <div ng-repeat="portfolioitem in api | orderBy: 'nid[0].value'">
+        {{portfolioitem.nid[0].value}}
+        <h2>{{portfolioitem.title[0].value}}</h2>
+        <img ng-src="{{portfolioitem.field_portfolio_teaser_image[0].url}}" alt="{{portfolioitem.field_portfolio_teaser_image[0].alt}}" title="{{portfolioitem.field_portfolio_teaser_image[0].title}}"/>
+        <p>{{portfolioitem.field_portfolio_description[0].value}}</p>
+    </div>
+</div>

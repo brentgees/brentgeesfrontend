@@ -5,10 +5,10 @@ angular.module('frontend.portfolio', ['ngRoute'])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/portfolio', {
     templateUrl: 'portfolio/portfolio.html',
-    controller: 'View2Ctrl'
+    controller: 'portfolio'
   });
 }])
 
-.controller('View2Ctrl', [function() {
+.controller('portfolio', [function() {
 
 }]);

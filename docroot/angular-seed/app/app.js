@@ -4,7 +4,8 @@
 angular.module('frontend', [
   'ngRoute',
   'frontend.view1',
-  'frontend.portfolio'
+  'frontend.portfolio',
+  'frontend.cv'
 ]).
 config(['$routeProvider', function($routeProvider) {
   //$locationProvider.html5mode(true);

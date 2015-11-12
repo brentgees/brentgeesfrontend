@@ -1,0 +1,20 @@
+{
+  "name": "gulp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Dropsolid/gulp.ds",
+  "authors": [
+    "Thomas De Beuckelaer <thomasdebeuckelaer@dropsolid.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "susy": "~2.2.5",
+    "breakpoint-sass": "~2.6.1"
+  }
+}
